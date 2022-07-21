@@ -1,0 +1,50 @@
+
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+text.label {
+    text-anchor: middle;
+    font-size: 11px;
+    fill: #555;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.axis text {
+    fill: #555;
+}
+
+.axis line,
+.axis path {
+    stroke: #555;
+}
+
+text.title {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #333;
+}
+circle {
+    fill: #5096a4;
+    stroke: #fff;
+    stroke-width: 0.5;
+    opacity: 0.4;
+}
+text.g {
+    text-anchor: middle;
+    font-size: 6px;
+    fill: #333;
+    visibility: hidden
+}
+g:hover text {
+    visibility:visible
+}
+g:hover circle {
+    opacity: 1;
+}
